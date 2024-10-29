@@ -206,6 +206,8 @@ section header .burger-menu-btn div {
     background-color: #fff;
 
     transition: .2s ease;
+
+    z-index: 9999;
 }
 
 .mobile-menu nav {
