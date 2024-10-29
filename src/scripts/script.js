@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         stagger: 0.1
     });
 
-    gsap.from("main article:first-child", {
+    gsap.from(".hero-main article:first-child", {
         x: -50,
         opacity: 0,
         duration: 1.2,
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ease: "power3.out"
     });
 
-    gsap.from("main article:last-child", {
+    gsap.from(".hero-main article:last-child", {
         x: 100,
         opacity: 0,
         duration: 1.2,
